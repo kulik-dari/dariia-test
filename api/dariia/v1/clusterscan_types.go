@@ -28,6 +28,9 @@ type ClusterScanSpec struct {
 
     // Schedule defines whether the job is one-off or recurring
     Schedule string `json:"schedule,omitempty"` // e.g., "*/5 * * * *" for a recurring job, empty for one-off
+
+    // Additional fields to be defined here
+    // ExampleField string `json:"exampleField,omitempty"` // Add your desired spec fields here
 }
 
 // ClusterScanStatus defines the observed state of ClusterScan
@@ -40,6 +43,9 @@ type ClusterScanStatus struct {
 
     // LastExecutionResult records the result of the last job execution
     LastExecutionResult string `json:"lastExecutionResult,omitempty"`
+
+    // Additional fields to be defined here
+    // ExampleStatusField string `json:"exampleStatusField,omitempty"` // Add your desired status fields here
 }
 
 // +kubebuilder:object:root=true

@@ -8,13 +8,11 @@ import (
     batchv1beta1 "k8s.io/api/batch/v1beta1"
     metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
     "k8s.io/apimachinery/pkg/runtime"
-    "k8s.io/apimachinery/pkg/types"
-    "k8s.io/apimachinery/pkg/util/intstr"
     ctrl "sigs.k8s.io/controller-runtime"
     "sigs.k8s.io/controller-runtime/pkg/client"
     "sigs.k8s.io/controller-runtime/pkg/log"
 
-    dariiav1 "github.com/kulik-dari/testing/api/v1"
+    dariiav1 "github.com/kulik-dari/testing/api/dariia/v1"
 )
 
 // ClusterScanReconciler reconciles a ClusterScan object
