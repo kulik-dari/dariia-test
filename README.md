@@ -1,11 +1,12 @@
-<<<<<<< HEAD
-# dariia-test
-=======
-# dariia-test
-// TODO(user): Add simple overview of use/purpose
 
-## Description
-// TODO(user): An in-depth paragraph about your project and overview of use
+# dariia-test
+This repository contains the codebase for the dariia-test project. Below is an overview of the project's purpose and instructions on how to get started.
+
+## Overview
+
+The dariia-test project is a repository for implementing a basic kubernetes controller that
+reconciles a ClusterScan custom resourc
+
 
 ## Getting Started
 
@@ -99,20 +100,5 @@ kubectl apply -f https://raw.githubusercontent.com/<org>/dariia-test/<tag or bra
 
 More information can be found via the [Kubebuilder Documentation](https://book.kubebuilder.io/introduction.html)
 
-## License
-
-Copyright 2024.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
 
 
