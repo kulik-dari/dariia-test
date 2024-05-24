@@ -1,0 +1,9 @@
+apiVersion: dariia.example.com/v1
+kind: ClusterScan
+metadata:
+  labels:
+    app.kubernetes.io/name: dariia-test
+    app.kubernetes.io/managed-by: kustomize
+  name: clusterscan-sample
+spec:
+  # TODO(user): Add fields here

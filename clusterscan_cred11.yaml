@@ -1,0 +1,35 @@
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  annotations:
+    controller-gen.kubebuilder.io/version: v0.14.0
+  name: clusterscans.dariia.example.com
+spec:
+  group: dariia.example.com
+  names:
+    kind: ClusterScan
+    listKind: ClusterScanList
+    plural: clusterscans
+    singular: clusterscan
+  scope: Namespaced
+  versions:
+  - name: v1
+    served: true
+    storage: true
+    schema:
+      openAPIV3Schema:
+        type: object  # Set the type at the root of the schema
+        description: ClusterScan is the Schema for the clusterscans API
+        properties:
+          # Your desired properties for ClusterScan here
+          # For example:
+          #   schedule:
+          #     type: string
+          #     description: Cron schedule for recurring execution (optional)
+          #   jobTemplate:
+          #     type: object
+          #     description: Template for the Job to be created
+          #   cronJobTemplate:  # Optional for recurring execution
+          #     type: object
+          #     description: Template for the CronJob to be created
+
